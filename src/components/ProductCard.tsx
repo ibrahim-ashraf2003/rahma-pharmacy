@@ -42,7 +42,7 @@ export default function ProductCard({ product }: ProductCardProps) {
       dir="rtl"
     >
       {/* 1. Product Image Wrapper */}
-      <div className="relative w-full aspect-square flex items-center justify-center overflow-hidden mb-3">
+      <div className="relative w-full aspect-[4/5] flex items-center justify-center overflow-hidden mb-3">
         
         {/* Top-Right Discount Badge in Percentage: "خصم 20%" */}
         {hasDiscount && discountPercent > 0 && (
@@ -60,13 +60,13 @@ export default function ProductCard({ product }: ProductCardProps) {
           </div>
         )}
 
-        {/* Product Image */}
+        {/* Product Image - enlarged while preserving the original aspect ratio */}
         <Link 
           to={`/product/${product._id || product.id}`} 
           className="block w-full h-full relative flex items-center justify-center"
         >
           <img 
-            className="w-full h-full max-h-[210px] object-contain transition-transform duration-300 group-hover:scale-105" 
+            className="w-full h-full object-contain scale-[1.15] transition-transform duration-300 group-hover:scale-[1.2]"
             src={product.image} 
             alt={product.arabicName || product.name}
             loading="lazy"
