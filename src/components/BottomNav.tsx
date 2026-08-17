@@ -1,0 +1,1 @@
+import{useCart}from'../context/CartContext';export default function BottomNav(){const{setIsCartOpen,totalItems}=useCart();return <button onClick={()=>setIsCartOpen(true)} className="fixed bottom-4 right-4 z-40 rounded-full bg-black px-5 py-3 text-white">Cart ({totalItems})</button>}
