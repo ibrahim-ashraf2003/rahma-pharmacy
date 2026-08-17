@@ -1,5 +1,9 @@
 import mongoose, { Schema, Document } from 'mongoose';
 
+// Defense-in-depth for user-controlled MongoDB filters.
+mongoose.set('strictQuery', true);
+mongoose.set('sanitizeFilter', true);
+
 export interface IProductReview {
   name: string;
   rating: number;
