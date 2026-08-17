@@ -25,6 +25,7 @@ export interface IProduct extends Document {
   active?: boolean;
   averageRating?: number;
   reviewsCount?: number;
+  popularityRank?: number;
   reviews?: IProductReview[];
 }
 
@@ -54,11 +55,13 @@ const ProductSchema: Schema = new Schema(
     active: { type: Boolean, default: true },
     averageRating: { type: Number, default: 0 },
     reviewsCount: { type: Number, default: 0 },
+    popularityRank: { type: Number, default: 9999, index: true },
     reviews: { type: [ProductReviewSchema], default: [] }
   },
   { timestamps: true }
 );
 
+ProductSchema.index({ category: 1, active: 1, popularityRank: 1 });
 ProductSchema.index({ category: 1, active: 1, createdAt: -1 });
 
 export default mongoose.models.Product || mongoose.model<IProduct>('Product', ProductSchema);
