@@ -6,7 +6,6 @@ interface DecodedToken {
   role: string;
 }
 
-// Extend Express Request type
 declare global {
   namespace Express {
     interface Request {
@@ -22,14 +21,25 @@ export const authMiddleware = (req: Request, res: Response, next: NextFunction) 
     return res.status(401).json({ success: false, error: 'Unauthorized: No token provided' });
   }
 
-  const token = authHeader.split(' ')[1];
+  const token = authHeader.slice('Bearer '.length).trim();
+  if (!token) {
+    return res.status(401).json({ success: false, error: 'Unauthorized: Empty token' });
+  }
+
+  const secret = process.env.JWT_SECRET;
+  if (!secret) {
+    console.error('JWT_SECRET is not configured');
+    return res.status(503).json({ success: false, error: 'Authentication service is not configured' });
+  }
 
   try {
-    const secret = process.env.JWT_SECRET || 'tammi_sports_default_jwt_secret_dev_2026';
-
     const decoded = jwt.verify(token, secret) as DecodedToken;
+    if (!decoded || typeof decoded !== 'object' || !decoded.id || decoded.role !== 'admin') {
+      return res.status(403).json({ success: false, error: 'Forbidden: Admin access required' });
+    }
+
     req.admin = decoded;
-    next();
+    return next();
   } catch (error) {
     console.error('Auth Middleware Error:', error);
     return res.status(401).json({ success: false, error: 'Unauthorized: Invalid token' });
