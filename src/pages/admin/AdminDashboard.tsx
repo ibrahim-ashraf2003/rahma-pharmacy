@@ -1,0 +1,1 @@
+import{useEffect,useState}from'react';import{apiFetch}from'../../lib/api';export default function AdminDashboard(){const[d,setD]=useState<any>({});useEffect(()=>{apiFetch('/api/admin/dashboard').then(setD).catch(()=>{})},[]);return <main className="p-8"><h1 className="text-3xl font-bold">Dashboard</h1><pre className="mt-6 overflow-auto">{JSON.stringify(d,null,2)}</pre></main>}
