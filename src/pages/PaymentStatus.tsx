@@ -1,0 +1,1 @@
+import{Link}from'react-router-dom';export default function PaymentStatus(){return <main className="mx-auto max-w-xl p-10 text-center"><h1 className="text-3xl font-bold">Payment Status</h1><p className="my-4">Your payment request has been received.</p><Link to="/" className="underline">Back to shop</Link></main>}
