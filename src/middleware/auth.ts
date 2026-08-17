@@ -34,8 +34,8 @@ export const authMiddleware = (req: Request, res: Response, next: NextFunction) 
 
   try {
     const decoded = jwt.verify(token, secret) as DecodedToken;
-    if (!decoded || typeof decoded !== 'object' || !decoded.id || !decoded.role) {
-      return res.status(401).json({ success: false, error: 'Unauthorized: Invalid token payload' });
+    if (!decoded || typeof decoded !== 'object' || !decoded.id || decoded.role !== 'admin') {
+      return res.status(403).json({ success: false, error: 'Forbidden: Admin access required' });
     }
 
     req.admin = decoded;
