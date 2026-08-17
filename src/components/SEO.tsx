@@ -1,0 +1,1 @@
+export default function SEO({title,description}:{title?:string;description?:string}){if(typeof document!=='undefined'){document.title=title||'TAMMI SPORTS';const m=document.querySelector('meta[name="description"]');if(m)m.setAttribute('content',description||'')}return null}
