@@ -12,7 +12,8 @@
     "preview": "vite preview",
     "clean": "rm -rf dist",
     "lint": "tsc --noEmit",
-    "create-admin": "tsx create_admin.ts"
+    "create-admin": "tsx create_admin.ts",
+    "seed-products": "tsx seed_products.ts"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.14",
@@ -45,8 +46,11 @@
   "devDependencies": {
     "@types/bcryptjs": "^2.4.6",
     "@types/express": "^4.17.21",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.14.0",
     "@types/jsonwebtoken": "^9.0.10",
     "@types/node": "^22.14.0",
+    "@types/nodemailer": "^8.0.1",
     "autoprefixer": "^10.4.21",
     "esbuild": "^0.28.2",
     "tailwindcss": "^4.1.14",
