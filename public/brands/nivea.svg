@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="100%" height="100%">
+  <!-- NIVEA Royal Blue Circle -->
+  <circle cx="150" cy="150" r="145" fill="#0032a0" />
+  
+  <!-- NIVEA Bold Geometric Typography -->
+  <g fill="#ffffff">
+    <!-- N -->
+    <path d="M 52 185 L 52 115 L 68 115 L 87 160 L 87 115 L 102 115 L 102 185 L 86 185 L 67 139 L 67 185 Z" />
+    <!-- I -->
+    <path d="M 112 185 L 112 115 L 127 115 L 127 185 Z" />
+    <!-- V -->
+    <path d="M 137 115 L 153 115 L 165 163 L 177 115 L 193 115 L 174 185 L 157 185 Z" />
+    <!-- E -->
+    <path d="M 203 185 L 203 115 L 235 115 L 235 129 L 218 129 L 218 143 L 232 143 L 232 157 L 218 157 L 218 171 L 236 171 L 236 185 Z" />
+    <!-- A -->
+    <path d="M 256 185 L 241 185 L 257 115 L 273 115 L 289 185 L 274 185 L 270 167 L 260 167 Z M 265 142 L 261 155 L 269 155 Z" />
+  </g>
+</svg>

@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 360" width="100%" height="100%">
+  <defs>
+    <!-- Metallic Taupe / Bronze 3D Gradient -->
+    <linearGradient id="starvilleMetallic" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#b5a79b" />
+      <stop offset="35%" stop-color="#8d7d71" />
+      <stop offset="70%" stop-color="#5e5046" />
+      <stop offset="100%" stop-color="#87776b" />
+    </linearGradient>
+
+    <!-- StarVille Bevel Shadow -->
+    <filter id="starville3D" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="2" dy="4" stdDeviation="3" flood-color="#2d241e" flood-opacity="0.5"/>
+    </filter>
+
+    <style>
+      .starville-font {
+        font-family: "Eurostile", "Montserrat", "Arial Rounded MT Bold", sans-serif;
+        font-weight: 800;
+        font-size: 135px;
+        letter-spacing: -2px;
+      }
+    </style>
+  </defs>
+
+  <g filter="url(#starville3D)" transform="translate(10, 0)">
+    <!-- Overline Bar 1 (over 'tar') -->
+    <rect x="142" y="24" width="168" height="13" rx="6.5" fill="url(#starvilleMetallic)" stroke="#4a3e35" stroke-width="2" />
+    <!-- Overline Bar 2 (over 'e') -->
+    <rect x="502" y="24" width="98" height="13" rx="6.5" fill="url(#starvilleMetallic)" stroke="#4a3e35" stroke-width="2" />
+
+    <!-- StarVille 3D Wordmark -->
+    <text 
+      x="315" 
+      y="180" 
+      class="starville-font"
+      fill="url(#starvilleMetallic)"
+      stroke="#4a3e35"
+      stroke-width="5"
+      stroke-linejoin="round"
+      text-anchor="middle"
+    >
+      StarVille
+    </text>
+
+    <!-- Highlight stroke overlay for 3D tube effect -->
+    <text 
+      x="314" 
+      y="178" 
+      class="starville-font"
+      fill="none"
+      stroke="#dfd5cb"
+      stroke-width="1.8"
+      opacity="0.6"
+      text-anchor="middle"
+    >
+      StarVille
+    </text>
+
+    <!-- Underline Separator Bar -->
+    <rect x="36" y="202" width="560" height="14" rx="7" fill="url(#starvilleMetallic)" stroke="#4a3e35" stroke-width="2" />
+
+    <!-- Lower Dual-Tone Capsule / Pill -->
+    <g transform="translate(25, 240)">
+      <clipPath id="pillClip">
+        <rect x="0" y="0" width="580" height="64" rx="32" />
+      </clipPath>
+
+      <g clip-path="url(#pillClip)">
+        <!-- Left Side: Warm Brown/Taupe 'Whitening' -->
+        <rect x="0" y="0" width="260" height="64" fill="#806f62" />
+        <rect x="0" y="0" width="260" height="64" fill="none" stroke="#52453b" stroke-width="6" rx="32" />
+        <!-- Inner white dividing line -->
+        <line x1="260" y1="0" x2="260" y2="64" stroke="#ffffff" stroke-width="3" />
+
+        <!-- Right Side: Vibrant Cyan 'Acne-Prone Skin' -->
+        <rect x="260" y="0" width="320" height="64" fill="#00b4b4" />
+        
+        <!-- Text 'Whitening' -->
+        <text 
+          x="130" 
+          y="44" 
+          font-family="'Montserrat', 'Arial Black', sans-serif" 
+          font-weight="800" 
+          font-size="28" 
+          fill="#ffffff" 
+          text-anchor="middle"
+        >
+          Whitening
+        </text>
+
+        <!-- Text 'Acne-Prone Skin' -->
+        <text 
+          x="420" 
+          y="44" 
+          font-family="'Montserrat', 'Arial Black', sans-serif" 
+          font-weight="800" 
+          font-size="28" 
+          fill="#ffffff" 
+          text-anchor="middle"
+        >
+          Acne-Prone Skin
+        </text>
+
+        <!-- 3D Gloss reflection on top half of pill -->
+        <rect x="0" y="0" width="580" height="28" fill="#ffffff" opacity="0.15" />
+      </g>
+    </g>
+  </g>
+</svg>

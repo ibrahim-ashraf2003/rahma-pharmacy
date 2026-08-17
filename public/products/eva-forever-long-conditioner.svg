@@ -1,0 +1,50 @@
+<!-- Eva Advanced Care Forever Long Conditioner 230ml -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg8" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8f9fa"/>
+    </linearGradient>
+    <linearGradient id="tubeSilver" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d1d5db"/>
+      <stop offset="40%" stop-color="#f3f4f6"/>
+      <stop offset="100%" stop-color="#9ca3af"/>
+    </linearGradient>
+    <filter id="shadow8" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#000000" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg8)"/>
+  <ellipse cx="200" cy="460" rx="65" ry="12" fill="#000" opacity="0.12"/>
+  
+  <g filter="url(#shadow8)">
+    <!-- Tube Body -->
+    <path d="M 140 100 L 260 100 L 245 400 L 155 400 Z" fill="url(#tubeSilver)" stroke="#9ca3af" stroke-width="1.5"/>
+    
+    <!-- Top Crimped Edge -->
+    <rect x="135" y="85" width="130" height="20" fill="#9ca3af" stroke="#6b7280" stroke-width="1.5"/>
+    
+    <!-- Black Flip Cap at Bottom -->
+    <rect x="160" y="400" width="80" height="45" rx="4" fill="#111827" stroke="#000000" stroke-width="1.5"/>
+    
+    <!-- Tube Branding -->
+    <text x="200" y="140" font-family="serif" font-size="16" font-weight="900" fill="#111827" text-anchor="middle">eva</text>
+    <text x="200" y="158" font-family="sans-serif" font-size="9" font-weight="700" fill="#4b5563" text-anchor="middle" letter-spacing="1">ADVANCED CARE</text>
+    <text x="200" y="180" font-family="sans-serif" font-size="14" font-weight="900" fill="#111827" text-anchor="middle">CLINIC</text>
+    
+    <rect x="155" y="195" width="90" height="20" rx="3" fill="#374151"/>
+    <text x="200" y="209" font-family="sans-serif" font-size="7.5" font-weight="700" fill="#ffffff" text-anchor="middle">CASTOR OIL &amp; RICE WATER</text>
+    
+    <text x="200" y="240" font-family="sans-serif" font-size="12" font-weight="900" fill="#111827" text-anchor="middle">FOREVER</text>
+    <text x="200" y="255" font-family="sans-serif" font-size="12" font-weight="900" fill="#111827" text-anchor="middle">LONG</text>
+
+    <text x="200" y="275" font-family="sans-serif" font-size="8" font-weight="bold" fill="#4b5563" text-anchor="middle">LENGTHENING CONDITIONER</text>
+    <text x="200" y="290" font-family="sans-serif" font-size="8" font-weight="bold" fill="#111827" text-anchor="middle">بلسم لتطويل الشعر</text>
+
+    <!-- Ribbon -->
+    <path d="M 180 340 L 270 340 L 260 358 L 170 358 Z" fill="#f43f5e"/>
+    <text x="220" y="353" font-family="sans-serif" font-size="8" font-weight="900" fill="#ffffff" text-anchor="middle">FOREVER LONG</text>
+
+    <text x="200" y="385" font-family="sans-serif" font-size="9" font-weight="bold" fill="#374151" text-anchor="middle">230 ml</text>
+  </g>
+</svg>

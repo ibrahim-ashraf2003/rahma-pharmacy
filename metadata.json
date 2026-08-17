@@ -1,0 +1,8 @@
+{
+  "name": "متجر الجمال والعناية • Beauty & Care",
+  "description": "متجر إلكتروني متكامل لمستحضرات التجميل والعناية الشخصية في مصر مع أسعار محدثة ومصادر موثوقة لكافة الأقسام والماركات العالمية والمحلية.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

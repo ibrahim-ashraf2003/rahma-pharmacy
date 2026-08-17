@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 90" fill="none">
+  <!-- Eva Logo Top -->
+  <g transform="translate(100, 3) scale(0.45)">
+    <polygon points="30,5 50,5 60,22 50,40 30,40 20,22" stroke="#c05621" stroke-width="3" fill="none" stroke-linejoin="round"/>
+    <polygon points="70,5 90,5 100,22 90,40 70,40 60,22" stroke="#c05621" stroke-width="3" fill="none" stroke-linejoin="round"/>
+    <polygon points="110,5 130,5 140,22 130,40 110,40 100,22" stroke="#c05621" stroke-width="3" fill="none" stroke-linejoin="round"/>
+    <text x="40" y="27" font-family="'Times New Roman', serif" font-style="italic" font-weight="bold" font-size="22" fill="#c05621" text-anchor="middle">Є</text>
+    <text x="80" y="27" font-family="'Times New Roman', serif" font-style="italic" font-weight="bold" font-size="22" fill="#c05621" text-anchor="middle">υ</text>
+    <text x="120" y="27" font-family="'Times New Roman', serif" font-style="italic" font-weight="bold" font-size="22" fill="#c05621" text-anchor="middle">a</text>
+  </g>
+  <!-- Honey stylized -->
+  <text x="110" y="55" font-family="'Brush Script MT', 'Dancing Script', cursive, sans-serif" font-style="italic" font-weight="bold" font-size="44" fill="#dd6b20" text-anchor="middle">Honey</text>
+  <text x="210" y="52" font-family="system-ui, sans-serif" font-weight="bold" font-size="14" fill="#7b341e" text-anchor="middle">Hair Cream</text>
+  <!-- Arabic Subtitle -->
+  <text x="140" y="78" font-family="system-ui, 'Segoe UI', Tahoma, sans-serif" font-weight="bold" font-size="11" fill="#9c4221" text-anchor="middle">كريم شعر إيفا بالعسل - يغذي الشعر</text>
+</svg>

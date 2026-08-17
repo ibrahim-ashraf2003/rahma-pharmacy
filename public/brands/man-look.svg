@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 110" fill="none">
+  <!-- man Look typography -->
+  <g transform="translate(125, 45)">
+    <!-- man in solid dark navy -->
+    <text x="0" y="0" font-family="'Impact', 'Arial Black', sans-serif" font-style="italic" font-weight="900" font-size="52" fill="#002b66" text-anchor="middle" letter-spacing="-1">man</text>
+    <!-- registered trademark -->
+    <text x="78" y="-30" font-family="sans-serif" font-style="normal" font-size="14" fill="#002b66" font-weight="bold">®</text>
+  </g>
+
+  <!-- Look in dark navy with white fill and bottom accent line -->
+  <g transform="translate(125, 88)">
+    <text x="0" y="0" font-family="'Impact', 'Arial Black', sans-serif" font-style="italic" font-weight="900" font-size="44" fill="#002b66" stroke="#002b66" stroke-width="2" text-anchor="middle" letter-spacing="1">Look</text>
+    <!-- Underline bar -->
+    <line x1="-80" y1="8" x2="80" y2="4" stroke="#002b66" stroke-width="3.5"/>
+  </g>
+</svg>

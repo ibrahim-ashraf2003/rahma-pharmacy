@@ -1,0 +1,41 @@
+<!-- Eva Professional Shampoo 1L (White Bottle) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8f9fa"/>
+    </linearGradient>
+    <linearGradient id="bottle5" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f9fafb"/>
+      <stop offset="40%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e5e7eb"/>
+    </linearGradient>
+    <filter id="shadow5" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#000000" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg5)"/>
+  <ellipse cx="200" cy="465" rx="65" ry="12" fill="#000" opacity="0.12"/>
+  
+  <!-- Black Cap / Pump -->
+  <rect x="190" y="50" width="20" height="30" fill="#111827"/>
+  <rect x="180" y="75" width="40" height="15" rx="2" fill="#1f2937"/>
+  <path d="M 180 50 Q 150 45 140 45 L 140 40 Q 150 40 190 40 Z" fill="#111827"/>
+
+  <!-- Bottle Body 1L -->
+  <path d="M 175 90 Q 200 90 225 90 Q 255 120 255 180 L 255 420 Q 255 455 200 455 Q 145 455 145 420 L 145 180 Q 145 120 175 90 Z" 
+        fill="url(#bottle5)" stroke="#e5e7eb" stroke-width="1.5" filter="url(#shadow5)"/>
+  
+  <!-- Label Content -->
+  <text x="200" y="160" font-family="serif" font-size="15" font-weight="bold" fill="#b45309" text-anchor="middle">eva</text>
+  <text x="200" y="175" font-family="sans-serif" font-size="10" font-weight="900" fill="#111827" text-anchor="middle" letter-spacing="3">PROFESSIONAL</text>
+  <line x1="165" y1="185" x2="235" y2="185" stroke="#d1d5db" stroke-width="1"/>
+  
+  <text x="200" y="225" font-family="sans-serif" font-size="16" font-weight="900" fill="#111827" text-anchor="middle" letter-spacing="2">SHAMPOO</text>
+  <text x="200" y="245" font-family="sans-serif" font-size="10" font-weight="bold" fill="#4b5563" text-anchor="middle">شامبو بروتينات الحرير</text>
+  
+  <rect x="165" y="265" width="70" height="24" rx="4" fill="#fef3c7"/>
+  <text x="200" y="280" font-family="sans-serif" font-size="9" font-weight="900" fill="#92400e" text-anchor="middle">SILK PROTEINS</text>
+
+  <text x="200" y="420" font-family="sans-serif" font-size="11" font-weight="900" fill="#111827" text-anchor="middle">1 LITER / ١ لتر</text>
+</svg>

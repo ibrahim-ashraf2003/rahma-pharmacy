@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 360" width="100%" height="100%">
+  <defs>
+    <!-- 3D Gloss Gradient for CLEAR and Leaf -->
+    <linearGradient id="clearBlackGloss" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#333333" />
+      <stop offset="35%" stop-color="#151515" />
+      <stop offset="50%" stop-color="#4a4a4a" />
+      <stop offset="65%" stop-color="#0d0d0d" />
+      <stop offset="100%" stop-color="#222222" />
+    </linearGradient>
+
+    <!-- Chrome Bevel Stroke Gradient -->
+    <linearGradient id="chromeBevel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="25%" stop-color="#888888" />
+      <stop offset="50%" stop-color="#ffffff" />
+      <stop offset="75%" stop-color="#444444" />
+      <stop offset="100%" stop-color="#aaaaaa" />
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(10, 0)">
+    <!-- Black Glossy Leaf with 'new' inside -->
+    <g transform="translate(60, 10)">
+      <path d="M 0 100 C -10 40, 30 10, 120 0 C 135 60, 110 110, 0 100 Z" fill="url(#clearBlackGloss)" stroke="url(#chromeBevel)" stroke-width="2.5" />
+      <text x="60" y="65" font-family="'Century Gothic', 'Futura', sans-serif" font-weight="400" font-size="34" fill="#ffffff" text-anchor="middle">new</text>
+    </g>
+
+    <!-- Large Outer 'C' -->
+    <path d="M 195 130 C 180 90, 130 90, 100 120 C 60 160, 60 220, 100 260 C 140 295, 190 280, 205 250 L 175 240 C 160 260, 130 265, 110 245 C 85 220, 85 170, 110 145 C 130 125, 160 125, 175 140 Z" 
+          fill="url(#clearBlackGloss)" stroke="url(#chromeBevel)" stroke-width="3" stroke-linejoin="round" />
+
+    <!-- 'L E A R' Letters -->
+    <g transform="translate(205, 235)" fill="url(#clearBlackGloss)" stroke="url(#chromeBevel)" stroke-width="3.5" stroke-linejoin="round">
+      <!-- L -->
+      <path d="M 0 0 L 22 0 L 22 -95 L 0 -95 Z M 0 0 L 70 0 L 70 -20 L 0 -20 Z" />
+      <!-- E -->
+      <path d="M 85 0 L 155 0 L 155 -20 L 107 -20 L 107 -40 L 150 -40 L 150 -60 L 107 -60 L 107 -75 L 155 -75 L 155 -95 L 85 -95 Z" />
+      <!-- A -->
+      <path d="M 170 0 L 195 0 L 205 -35 L 245 -35 L 255 0 L 280 0 L 235 -95 L 215 -95 Z M 212 -55 L 225 -82 L 238 -55 Z" />
+      <!-- R -->
+      <path d="M 290 0 L 312 0 L 312 -40 L 335 -40 L 355 0 L 380 0 L 355 -42 C 370 -48, 380 -60, 380 -72 C 380 -88, 365 -95, 340 -95 L 290 -95 Z M 312 -58 L 312 -78 L 335 -78 C 348 -78, 356 -74, 356 -68 C 356 -62, 348 -58, 335 -58 Z" />
+    </g>
+
+    <!-- SCALP & HAIR THERAPY -->
+    <g transform="translate(305, 305)">
+      <text 
+        x="0" 
+        y="0" 
+        font-family="'Futura', 'Century Gothic', 'Montserrat', sans-serif" 
+        font-weight="600" 
+        font-size="34" 
+        letter-spacing="5px" 
+        fill="#111111" 
+        text-anchor="middle"
+      >
+        SCALP &amp; HAIR THERAPY
+      </text>
+      <!-- TM -->
+      <text x="270" y="-12" font-family="sans-serif" font-weight="700" font-size="14" fill="#111111">TM</text>
+    </g>
+  </g>
+</svg>

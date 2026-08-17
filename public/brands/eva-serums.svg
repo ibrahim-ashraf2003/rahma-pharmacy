@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 90" fill="none">
+  <!-- Eva Skin Clinic Logo -->
+  <g transform="translate(65, 4) scale(0.65)">
+    <polygon points="30,5 50,5 60,22 50,40 30,40 20,22" stroke="#2b2d42" stroke-width="3" fill="none" stroke-linejoin="round"/>
+    <polygon points="70,5 90,5 100,22 90,40 70,40 60,22" stroke="#2b2d42" stroke-width="3" fill="none" stroke-linejoin="round"/>
+    <polygon points="110,5 130,5 140,22 130,40 110,40 100,22" stroke="#2b2d42" stroke-width="3" fill="none" stroke-linejoin="round"/>
+    <text x="40" y="27" font-family="'Times New Roman', serif" font-style="italic" font-weight="bold" font-size="22" fill="#2b2d42" text-anchor="middle">Є</text>
+    <text x="80" y="27" font-family="'Times New Roman', serif" font-style="italic" font-weight="bold" font-size="22" fill="#2b2d42" text-anchor="middle">υ</text>
+    <text x="120" y="27" font-family="'Times New Roman', serif" font-style="italic" font-weight="bold" font-size="22" fill="#2b2d42" text-anchor="middle">a</text>
+    <path d="M 20 48 Q 80 43 140 48" stroke="#2b2d42" stroke-width="1.5" fill="none"/>
+    <text x="80" y="60" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#2b2d42" text-anchor="middle" letter-spacing="2">SKIN CLINIC</text>
+  </g>
+  <!-- Face Serum Text -->
+  <text x="130" y="75" font-family="system-ui, sans-serif" font-weight="900" font-size="25" fill="#1f2421" text-anchor="middle" letter-spacing="1">Face Serum</text>
+</svg>

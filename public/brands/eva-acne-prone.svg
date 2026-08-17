@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 120" fill="none">
+  <!-- Eva Logo in Cyan/Light Blue -->
+  <g transform="translate(75, 6) scale(0.7)">
+    <polygon points="30,5 50,5 60,22 50,40 30,40 20,22" stroke="#48bbee" stroke-width="3" fill="none" stroke-linejoin="round"/>
+    <polygon points="70,5 90,5 100,22 90,40 70,40 60,22" stroke="#48bbee" stroke-width="3" fill="none" stroke-linejoin="round"/>
+    <polygon points="110,5 130,5 140,22 130,40 110,40 100,22" stroke="#48bbee" stroke-width="3" fill="none" stroke-linejoin="round"/>
+    <text x="40" y="27" font-family="'Times New Roman', serif" font-style="italic" font-weight="bold" font-size="22" fill="#48bbee" text-anchor="middle">Є</text>
+    <text x="80" y="27" font-family="'Times New Roman', serif" font-style="italic" font-weight="bold" font-size="22" fill="#48bbee" text-anchor="middle">υ</text>
+    <text x="120" y="27" font-family="'Times New Roman', serif" font-style="italic" font-weight="bold" font-size="22" fill="#48bbee" text-anchor="middle">a</text>
+    <path d="M 15 48 Q 80 42 145 48" stroke="#48bbee" stroke-width="2.5" fill="none"/>
+    <text x="80" y="60" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="12" fill="#48bbee" text-anchor="middle" letter-spacing="3">SKIN CLINIC</text>
+  </g>
+  <!-- ACNE-PRONE SKIN with target icon inside O -->
+  <g transform="translate(140, 102)">
+    <text x="0" y="0" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="21" fill="#48bbee" text-anchor="middle" letter-spacing="1.5">ACNE-PR<tspan dx="1">O</tspan>NE SKIN</text>
+    <!-- Crosshair in the O -->
+    <circle cx="2" cy="-7" r="7" stroke="#48bbee" stroke-width="2" fill="none"/>
+    <line x1="-7" y1="-7" x2="11" y2="-7" stroke="#48bbee" stroke-width="1.5"/>
+    <line x1="2" y1="-16" x2="2" y2="2" stroke="#48bbee" stroke-width="1.5"/>
+  </g>
+</svg>

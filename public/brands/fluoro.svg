@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 85" fill="none">
+  <defs>
+    <linearGradient id="fluoroYellow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff500"/>
+      <stop offset="100%" stop-color="#ff9900"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="2" dy="4" stdDeviation="2" flood-color="#003580" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+  <!-- Background Pill outline in Royal Blue -->
+  <g filter="url(#shadow)">
+    <!-- Outline text -->
+    <text x="125" y="60" font-family="'Arial Black', 'Impact', sans-serif" font-style="italic" font-weight="900" font-size="52" fill="#0052cc" stroke="#003580" stroke-width="12" stroke-linejoin="round" text-anchor="middle">Fluoro</text>
+    <!-- Cyan Outline -->
+    <text x="125" y="60" font-family="'Arial Black', 'Impact', sans-serif" font-style="italic" font-weight="900" font-size="52" fill="#00aaff" stroke="#00aaff" stroke-width="6" stroke-linejoin="round" text-anchor="middle">Fluoro</text>
+    <!-- Gradient Fill -->
+    <text x="125" y="60" font-family="'Arial Black', 'Impact', sans-serif" font-style="italic" font-weight="900" font-size="52" fill="url(#fluoroYellow)" text-anchor="middle">Fluoro</text>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <!-- Deep Navy Blue Rexona -->
+  <g fill="#0c1860" transform="translate(10, 0)">
+    <!-- Iconic Sharp Checkmark / Tick on Top -->
+    <path d="M 285 245 L 225 125 L 275 160 L 400 30 L 285 245 Z" transform="translate(0, -10)" />
+
+    <!-- Rexona Bold Modern Wordmark -->
+    <g transform="translate(290, 325)">
+      <text 
+        x="0" 
+        y="0" 
+        font-family="'Futura', 'Montserrat', 'Arial Black', sans-serif" 
+        font-weight="900" 
+        font-size="124" 
+        letter-spacing="-1px" 
+        text-anchor="middle"
+      >
+        Rexona
+      </text>
+    </g>
+  </g>
+</svg>

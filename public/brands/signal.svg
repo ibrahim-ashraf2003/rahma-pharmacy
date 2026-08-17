@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 220" width="100%" height="100%">
+  <defs>
+    <!-- Precise Signal Blue & Red -->
+    <style>
+      .sig-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Arial Black", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+        font-size: 148px;
+        fill: #012b87;
+        letter-spacing: -3.5px;
+      }
+    </style>
+  </defs>
+
+  <!-- Wordmark 'Signal' -->
+  <text x="25" y="142" class="sig-text">Signal</text>
+
+  <!-- Red Smile Swoosh -->
+  <path d="M 235 146 C 265 192, 395 208, 475 116 C 445 180, 310 186, 235 146 Z" fill="#e30613" />
+
+  <!-- Red Smile Right Terminal Dash -->
+  <path d="M 458 126 C 478 122, 492 118, 498 116 C 504 114, 502 124, 494 130 C 484 138, 468 144, 452 146 Z" fill="#e30613" />
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 200" width="100%" height="100%">
+  <defs>
+    <!-- Garnier Green Leaf Texture / Gradient -->
+    <radialGradient id="garnierLeaf" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#b4d936" />
+      <stop offset="60%" stop-color="#82b81d" />
+      <stop offset="100%" stop-color="#4d800a" />
+    </radialGradient>
+  </defs>
+
+  <!-- Left Green Botanical Leaf Circle -->
+  <g transform="translate(10, 10)">
+    <circle cx="85" cy="85" r="80" fill="url(#garnierLeaf)" />
+    <!-- Leaf Veins Pattern -->
+    <path d="M 85 15 C 85 85, 85 155, 85 155" stroke="#366005" stroke-width="2.5" fill="none" />
+    <path d="M 85 50 C 110 35, 140 45, 150 55" stroke="#366005" stroke-width="1.8" fill="none" />
+    <path d="M 85 80 C 120 65, 150 80, 160 95" stroke="#366005" stroke-width="1.8" fill="none" />
+    <path d="M 85 110 C 115 100, 140 120, 150 135" stroke="#366005" stroke-width="1.8" fill="none" />
+    <path d="M 85 50 C 60 35, 30 45, 20 55" stroke="#366005" stroke-width="1.8" fill="none" />
+    <path d="M 85 80 C 50 65, 20 80, 10 95" stroke="#366005" stroke-width="1.8" fill="none" />
+    <path d="M 85 110 C 55 100, 30 120, 20 135" stroke="#366005" stroke-width="1.8" fill="none" />
+  </g>
+
+  <!-- GARNIER Bold Modern Typography in Deep Forest Charcoal -->
+  <g fill="#163624" transform="translate(20, 0)">
+    <!-- G over leaf -->
+    <path d="M 125 45 C 105 45, 60 62, 60 105 C 60 148, 105 165, 125 165 C 155 165, 175 145, 175 125 L 125 125 L 125 105 L 195 105 C 195 150, 160 185, 125 185 C 75 185, 38 150, 38 105 C 38 60, 75 25, 125 25 C 160 25, 185 45, 192 65 L 170 75 C 162 60, 145 45, 125 45 Z" />
+
+    <!-- A -->
+    <path d="M 230 40 L 260 40 L 305 165 L 280 165 L 268 130 L 222 130 L 210 165 L 185 165 Z M 245 65 L 228 112 L 262 112 Z" />
+
+    <!-- R -->
+    <path d="M 315 40 L 365 40 C 385 40, 400 52, 400 75 C 400 95, 388 105, 370 110 L 405 165 L 378 165 L 348 115 L 338 115 L 338 165 L 315 165 Z M 338 60 L 338 95 L 362 95 C 372 95, 378 88, 378 78 C 378 68, 372 60, 362 60 Z" />
+
+    <!-- N -->
+    <path d="M 420 40 L 442 40 L 485 130 L 485 40 L 507 40 L 507 165 L 485 165 L 442 75 L 442 165 L 420 165 Z" transform="translate(10, 0)" />
+
+    <!-- I -->
+    <rect x="545" y="40" width="22" height="125" />
+
+    <!-- E -->
+    <path d="M 585 40 L 640 40 L 640 60 L 607 60 L 607 90 L 635 90 L 635 110 L 607 110 L 607 145 L 642 145 L 642 165 L 585 165 Z" transform="translate(5, 0)" />
+
+    <!-- R -->
+    <path d="M 315 40 L 365 40 C 385 40, 400 52, 400 75 C 400 95, 388 105, 370 110 L 405 165 L 378 165 L 348 115 L 338 115 L 338 165 L 315 165 Z M 338 60 L 338 95 L 362 95 C 372 95, 378 88, 378 78 C 378 68, 372 60, 362 60 Z" transform="translate(345, 0)" />
+  </g>
+</svg>

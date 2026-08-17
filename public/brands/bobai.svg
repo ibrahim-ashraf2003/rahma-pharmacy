@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 320" width="100%" height="100%">
+  <defs>
+    <!-- Vibrant 3D Orange Gradient for BOBAI -->
+    <linearGradient id="bobaiOrange" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff7b1a" />
+      <stop offset="25%" stop-color="#ff4400" />
+      <stop offset="70%" stop-color="#ea3200" />
+      <stop offset="100%" stop-color="#b82100" />
+    </linearGradient>
+
+    <!-- Metallic Charcoal Gradient for Curved Brackets -->
+    <linearGradient id="charcoalTube" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#777e85" />
+      <stop offset="35%" stop-color="#3c4043" />
+      <stop offset="70%" stop-color="#1e2022" />
+      <stop offset="100%" stop-color="#494d52" />
+    </linearGradient>
+
+    <filter id="bobaiShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="2" dy="5" stdDeviation="3" flood-color="#801000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <g transform="translate(15, 10)">
+    <!-- Top Curved Charcoal Bar / Arch -->
+    <path d="M 60 65 C 230 15, 460 15, 630 65" 
+          fill="none" 
+          stroke="url(#charcoalTube)" 
+          stroke-width="15" 
+          stroke-linecap="round" />
+
+    <!-- BOBAI 3D Serif Wordmark -->
+    <g filter="url(#bobaiShadow)" transform="translate(345, 195)">
+      <!-- Base 3D Stroke -->
+      <text 
+        x="0" 
+        y="0" 
+        font-family="'Playfair Display', 'Clarendon', 'Georgia', serif" 
+        font-weight="900" 
+        font-size="165" 
+        letter-spacing="2px" 
+        fill="url(#bobaiOrange)"
+        stroke="#801000"
+        stroke-width="7"
+        stroke-linejoin="round"
+        text-anchor="middle"
+      >
+        BOBAI
+      </text>
+
+      <!-- Gloss Highlight Top -->
+      <text 
+        x="-1" 
+        y="-2" 
+        font-family="'Playfair Display', 'Clarendon', 'Georgia', serif" 
+        font-weight="900" 
+        font-size="165" 
+        letter-spacing="2px" 
+        fill="none"
+        stroke="#ffb380"
+        stroke-width="1.8"
+        opacity="0.75"
+        text-anchor="middle"
+      >
+        BOBAI
+      </text>
+    </g>
+
+    <!-- Bottom Curved Charcoal Bar / Arch -->
+    <path d="M 60 225 C 230 275, 460 275, 630 225" 
+          fill="none" 
+          stroke="url(#charcoalTube)" 
+          stroke-width="15" 
+          stroke-linecap="round" />
+  </g>
+</svg>

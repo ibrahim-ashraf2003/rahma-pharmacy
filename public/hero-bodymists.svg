@@ -1,0 +1,364 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="100%" height="100%">
+  <defs>
+    <!-- Sky Background with Golden Sunburst -->
+    <linearGradient id="mistSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="30%" stop-color="#38bdf8"/>
+      <stop offset="60%" stop-color="#fed7aa"/>
+      <stop offset="85%" stop-color="#eab308"/>
+      <stop offset="100%" stop-color="#ca8a04"/>
+    </linearGradient>
+
+    <!-- Golden Floor & Glitter -->
+    <linearGradient id="goldFloor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="30%" stop-color="#eab308"/>
+      <stop offset="70%" stop-color="#ca8a04"/>
+      <stop offset="100%" stop-color="#854d0e"/>
+    </linearGradient>
+
+    <!-- Sun Glow Radial -->
+    <radialGradient id="sunGlow" cx="80%" cy="15%" r="65%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="25%" stop-color="#fef08a" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#fde047" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Bottle Gradients -->
+    <!-- Top 1: Mystic Orchid (Deep Violet) -->
+    <linearGradient id="bgOrchid" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4c1d95"/>
+      <stop offset="50%" stop-color="#6b21a8"/>
+      <stop offset="100%" stop-color="#3b0764"/>
+    </linearGradient>
+
+    <!-- Top 2: Love Tale (Lavender Starry Purple) -->
+    <linearGradient id="bgLoveTale" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#4c1d95"/>
+    </linearGradient>
+
+    <!-- Top 3: Night Out (Midnight Black & Gold Laser Rays) -->
+    <linearGradient id="bgNightOut" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#18181b"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+
+    <!-- Top 4: Red Glamour (Ruby Crimson) -->
+    <linearGradient id="bgRedGlamour" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#881337"/>
+      <stop offset="50%" stop-color="#be123c"/>
+      <stop offset="100%" stop-color="#4c0519"/>
+    </linearGradient>
+
+    <!-- Top 5: Gold Spell (Metallic Gold) -->
+    <linearGradient id="bgGoldSpell" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ca8a04"/>
+      <stop offset="40%" stop-color="#fde047"/>
+      <stop offset="70%" stop-color="#eab308"/>
+      <stop offset="100%" stop-color="#a16207"/>
+    </linearGradient>
+
+    <!-- Bottom 1: Cozy Dream (Turquoise / Teal) -->
+    <linearGradient id="bgCozy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e7490"/>
+      <stop offset="50%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#164e63"/>
+    </linearGradient>
+
+    <!-- Bottom 2: In the Clouds (Candy Pink) -->
+    <linearGradient id="bgClouds" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e"/>
+      <stop offset="40%" stop-color="#f472b6"/>
+      <stop offset="80%" stop-color="#fbcfe8"/>
+      <stop offset="100%" stop-color="#db2777"/>
+    </linearGradient>
+
+    <!-- Bottom 3: Spring Lilies (Sunset Orange & Fuchsia) -->
+    <linearGradient id="bgLilies" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ea580c"/>
+      <stop offset="50%" stop-color="#f97316"/>
+      <stop offset="80%" stop-color="#c026d3"/>
+      <stop offset="100%" stop-color="#9d174d"/>
+    </linearGradient>
+
+    <!-- Bottom 4: Summer Twist (Tropical Sunset Coral & Palms) -->
+    <linearGradient id="bgSummerTwist" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e11d48"/>
+      <stop offset="40%" stop-color="#f43f5e"/>
+      <stop offset="70%" stop-color="#fb923c"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+
+    <!-- Bottom 5: Morning Blossom (Botanical Emerald / Blue) -->
+    <linearGradient id="bgMorning" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e40af"/>
+      <stop offset="50%" stop-color="#0d9488"/>
+      <stop offset="100%" stop-color="#15803d"/>
+    </linearGradient>
+
+    <!-- Bottom 6: Musky Jasmine (Warm Amber / Bronze) -->
+    <linearGradient id="bgMusky" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#78350f"/>
+      <stop offset="50%" stop-color="#b45309"/>
+      <stop offset="100%" stop-color="#451a03"/>
+    </linearGradient>
+
+    <!-- Silver Mist Spray Pump -->
+    <linearGradient id="silverPump" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#cbd5e1"/>
+      <stop offset="40%" stop-color="#ffffff"/>
+      <stop offset="70%" stop-color="#94a3b8"/>
+      <stop offset="100%" stop-color="#64748b"/>
+    </linearGradient>
+
+    <!-- Clear Mist Cap -->
+    <linearGradient id="glassCap" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.7"/>
+      <stop offset="30%" stop-color="#ffffff" stop-opacity="0.2"/>
+      <stop offset="70%" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.1"/>
+    </linearGradient>
+
+    <!-- Glass Bottle Reflections -->
+    <linearGradient id="mistReflect" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="25%" stop-color="#ffffff" stop-opacity="0.05"/>
+      <stop offset="80%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="mistShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="15" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Background Sky -->
+  <rect width="1920" height="1080" fill="url(#mistSky)"/>
+
+  <!-- Sunburst Radiant Glow -->
+  <rect width="1920" height="1080" fill="url(#sunGlow)"/>
+
+  <!-- Sun Rays -->
+  <g stroke="#ffffff" stroke-width="2" opacity="0.3" stroke-linecap="round">
+    <line x1="1550" y1="150" x2="800" y2="450"/>
+    <line x1="1550" y1="150" x2="1100" y2="700"/>
+    <line x1="1550" y1="150" x2="600" y2="350"/>
+    <line x1="1550" y1="150" x2="400" y2="600"/>
+    <line x1="1550" y1="150" x2="200" y2="400"/>
+  </g>
+
+  <!-- Golden Shimmer / Bokeh Particles in background -->
+  <g fill="#ffffff" opacity="0.75">
+    <circle cx="200" cy="220" r="35" opacity="0.25"/>
+    <circle cx="340" cy="140" r="20" opacity="0.35"/>
+    <circle cx="520" cy="280" r="45" opacity="0.2"/>
+    <circle cx="750" cy="180" r="28" opacity="0.3"/>
+    <circle cx="950" cy="110" r="50" opacity="0.35"/>
+    <circle cx="1180" cy="240" r="30" opacity="0.25"/>
+    <circle cx="1420" cy="190" r="40" opacity="0.4"/>
+    <circle cx="1700" cy="280" r="25" opacity="0.3"/>
+  </g>
+
+  <!-- Golden Floor with Glitter Carpet -->
+  <rect x="0" y="580" width="1920" height="500" fill="url(#goldFloor)"/>
+
+  <!-- Golden Glitter Dust Points -->
+  <g fill="#fef08a" opacity="0.85">
+    <circle cx="150" cy="640" r="4"/><circle cx="280" cy="720" r="3"/><circle cx="410" cy="660" r="5"/>
+    <circle cx="550" cy="780" r="4"/><circle cx="680" cy="620" r="3"/><circle cx="820" cy="740" r="5"/>
+    <circle cx="960" cy="670" r="4"/><circle cx="1100" cy="790" r="3"/><circle cx="1240" cy="630" r="5"/>
+    <circle cx="1380" cy="750" r="4"/><circle cx="1520" cy="650" r="3"/><circle cx="1660" cy="720" r="5"/>
+    <circle cx="1800" cy="680" r="4"/><circle cx="220" cy="850" r="3"/><circle cx="480" cy="920" r="4"/>
+    <circle cx="780" cy="890" r="5"/><circle cx="1120" cy="910" r="4"/><circle cx="1460" cy="880" r="3"/>
+    <circle cx="1740" cy="950" r="4"/>
+  </g>
+
+  <!-- ==================== TOP ROW: 5 LUXURY MISTS ==================== -->
+  
+  <!-- 1. Mystic Orchid -->
+  <g transform="translate(430, 180)" filter="url(#mistShadow)">
+    <!-- Clear Cap -->
+    <rect x="18" y="0" width="44" height="60" rx="3" fill="url(#glassCap)" stroke="#ffffff" stroke-width="1.5" stroke-opacity="0.7"/>
+    <!-- Pump Nozzle -->
+    <rect x="30" y="15" width="20" height="40" rx="2" fill="url(#silverPump)"/>
+    <rect x="26" y="55" width="28" height="8" rx="1" fill="url(#silverPump)"/>
+    <!-- Cylinder Body -->
+    <rect x="10" y="65" width="60" height="260" rx="6" fill="url(#bgOrchid)"/>
+    <!-- Shine Overlay -->
+    <rect x="14" y="65" width="15" height="260" fill="url(#mistReflect)"/>
+    <!-- Label Typography & Floral Artwork -->
+    <text x="40" y="130" font-family="'Playfair Display', Georgia, serif" font-size="14" font-weight="900" fill="#fbcfe8" text-anchor="middle" letter-spacing="1">Mystic</text>
+    <text x="40" y="150" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="900" fill="#fbcfe8" text-anchor="middle" letter-spacing="1">Orchid</text>
+    <text x="40" y="170" font-family="sans-serif" font-size="6" font-weight="700" fill="#fdf4ff" text-anchor="middle" letter-spacing="1">Fine Fragrance Mist</text>
+    <!-- Orchid Flowers on bottle -->
+    <circle cx="40" cy="270" r="14" fill="#ec4899" opacity="0.85"/>
+    <circle cx="28" cy="285" r="10" fill="#f43f5e" opacity="0.8"/>
+    <circle cx="52" cy="285" r="10" fill="#f43f5e" opacity="0.8"/>
+  </g>
+
+  <!-- 2. Love Tale -->
+  <g transform="translate(640, 180)" filter="url(#mistShadow)">
+    <rect x="18" y="0" width="44" height="60" rx="3" fill="url(#glassCap)" stroke="#ffffff" stroke-width="1.5" stroke-opacity="0.7"/>
+    <rect x="30" y="15" width="20" height="40" rx="2" fill="url(#silverPump)"/>
+    <rect x="26" y="55" width="28" height="8" rx="1" fill="url(#silverPump)"/>
+    <rect x="10" y="65" width="60" height="260" rx="6" fill="url(#bgLoveTale)"/>
+    <rect x="14" y="65" width="15" height="260" fill="url(#mistReflect)"/>
+    <text x="40" y="130" font-family="'Playfair Display', Georgia, serif" font-size="16" font-weight="900" fill="#fef08a" text-anchor="middle" letter-spacing="1">Love</text>
+    <text x="40" y="150" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="900" fill="#fef08a" text-anchor="middle" letter-spacing="1">Tale</text>
+    <text x="40" y="170" font-family="sans-serif" font-size="6" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="1">Fine Fragrance Mist</text>
+    <!-- Golden stars -->
+    <g fill="#fde047" opacity="0.85">
+      <polygon points="40,240 42,246 48,247 43,251 45,257 40,253 35,257 37,251 32,247 38,246"/>
+      <polygon points="25,275 26,279 30,280 27,283 28,287 25,285 22,287 23,283 20,280 24,279"/>
+      <polygon points="55,270 56,274 60,275 57,278 58,282 55,280 52,282 53,278 50,275 54,274"/>
+    </g>
+  </g>
+
+  <!-- 3. Night Out (Center Top) -->
+  <g transform="translate(850, 180)" filter="url(#mistShadow)">
+    <rect x="18" y="0" width="44" height="60" rx="3" fill="url(#glassCap)" stroke="#ffffff" stroke-width="1.5" stroke-opacity="0.7"/>
+    <rect x="30" y="15" width="20" height="40" rx="2" fill="url(#silverPump)"/>
+    <rect x="26" y="55" width="28" height="8" rx="1" fill="url(#silverPump)"/>
+    <rect x="10" y="65" width="60" height="260" rx="6" fill="url(#bgNightOut)"/>
+    <rect x="14" y="65" width="15" height="260" fill="url(#mistReflect)"/>
+    <text x="40" y="130" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="900" fill="#fef08a" text-anchor="middle" letter-spacing="1">Night</text>
+    <text x="40" y="150" font-family="'Playfair Display', Georgia, serif" font-size="16" font-weight="900" fill="#fef08a" text-anchor="middle" letter-spacing="1">Out</text>
+    <text x="40" y="170" font-family="sans-serif" font-size="6" font-weight="700" fill="#e4e4e7" text-anchor="middle" letter-spacing="1">Fine Fragrance Mist</text>
+    <!-- Geometric Golden Light Beams -->
+    <polygon points="40,210 15,315 65,315" fill="none" stroke="#eab308" stroke-width="2" opacity="0.8"/>
+    <polygon points="40,230 25,315 55,315" fill="#fde047" opacity="0.3"/>
+  </g>
+
+  <!-- 4. Red Glamour -->
+  <g transform="translate(1060, 180)" filter="url(#mistShadow)">
+    <rect x="18" y="0" width="44" height="60" rx="3" fill="url(#glassCap)" stroke="#ffffff" stroke-width="1.5" stroke-opacity="0.7"/>
+    <rect x="30" y="15" width="20" height="40" rx="2" fill="url(#silverPump)"/>
+    <rect x="26" y="55" width="28" height="8" rx="1" fill="url(#silverPump)"/>
+    <rect x="10" y="65" width="60" height="260" rx="6" fill="url(#bgRedGlamour)"/>
+    <rect x="14" y="65" width="15" height="260" fill="url(#mistReflect)"/>
+    <text x="40" y="130" font-family="'Playfair Display', Georgia, serif" font-size="16" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1">Red</text>
+    <text x="40" y="150" font-family="'Playfair Display', Georgia, serif" font-size="13" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1">Glamour</text>
+    <text x="40" y="170" font-family="sans-serif" font-size="6" font-weight="700" fill="#ffe4e6" text-anchor="middle" letter-spacing="1">Fine Fragrance Mist</text>
+    <!-- Ruby Gemstone Beads -->
+    <circle cx="40" cy="270" r="12" fill="#e11d48" stroke="#ffffff" stroke-width="1.5" opacity="0.85"/>
+    <circle cx="26" cy="285" r="9" fill="#e11d48" stroke="#ffffff" stroke-width="1.5" opacity="0.85"/>
+    <circle cx="54" cy="285" r="9" fill="#e11d48" stroke="#ffffff" stroke-width="1.5" opacity="0.85"/>
+  </g>
+
+  <!-- 5. Gold Spell -->
+  <g transform="translate(1270, 180)" filter="url(#mistShadow)">
+    <rect x="18" y="0" width="44" height="60" rx="3" fill="url(#glassCap)" stroke="#ffffff" stroke-width="1.5" stroke-opacity="0.7"/>
+    <rect x="30" y="15" width="20" height="40" rx="2" fill="url(#silverPump)"/>
+    <rect x="26" y="55" width="28" height="8" rx="1" fill="url(#silverPump)"/>
+    <rect x="10" y="65" width="60" height="260" rx="6" fill="url(#bgGoldSpell)"/>
+    <rect x="14" y="65" width="15" height="260" fill="url(#mistReflect)"/>
+    <text x="40" y="130" font-family="'Playfair Display', Georgia, serif" font-size="16" font-weight="900" fill="#451a03" text-anchor="middle" letter-spacing="1">Gold</text>
+    <text x="40" y="150" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="900" fill="#451a03" text-anchor="middle" letter-spacing="1">Spell</text>
+    <text x="40" y="170" font-family="sans-serif" font-size="6" font-weight="700" fill="#78350f" text-anchor="middle" letter-spacing="1">Fine Fragrance Mist</text>
+    <!-- Gold floral motifs -->
+    <g fill="#78350f" opacity="0.75">
+      <circle cx="40" cy="265" r="6"/>
+      <circle cx="28" cy="280" r="5"/>
+      <circle cx="52" cy="280" r="5"/>
+      <circle cx="40" cy="295" r="5"/>
+    </g>
+  </g>
+
+  <!-- ==================== BOTTOM ROW: 6 BOTANICAL / COLORFUL MISTS ==================== -->
+
+  <!-- Bottom 1: Cozy Dream -->
+  <g transform="translate(260, 540)" filter="url(#mistShadow)">
+    <rect x="18" y="0" width="44" height="60" rx="3" fill="url(#glassCap)" stroke="#ffffff" stroke-width="1.5" stroke-opacity="0.7"/>
+    <rect x="30" y="15" width="20" height="40" rx="2" fill="url(#silverPump)"/>
+    <rect x="26" y="55" width="28" height="8" rx="1" fill="url(#silverPump)"/>
+    <rect x="10" y="65" width="60" height="260" rx="6" fill="url(#bgCozy)"/>
+    <rect x="14" y="65" width="15" height="260" fill="url(#mistReflect)"/>
+    <text x="40" y="130" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1">Cozy</text>
+    <text x="40" y="150" font-family="'Playfair Display', Georgia, serif" font-size="14" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1">Dream</text>
+    <text x="40" y="170" font-family="sans-serif" font-size="6" font-weight="700" fill="#cffafe" text-anchor="middle" letter-spacing="1">Fine Fragrance Mist</text>
+    <!-- Blue birds & flowers -->
+    <path d="M25,270 Q35,255 45,265 Q55,275 35,285 Z" fill="#67e8f9" opacity="0.9"/>
+    <circle cx="45" cy="295" r="7" fill="#f472b6"/>
+  </g>
+
+  <!-- Bottom 2: In the Clouds -->
+  <g transform="translate(480, 540)" filter="url(#mistShadow)">
+    <rect x="18" y="0" width="44" height="60" rx="3" fill="url(#glassCap)" stroke="#ffffff" stroke-width="1.5" stroke-opacity="0.7"/>
+    <rect x="30" y="15" width="20" height="40" rx="2" fill="url(#silverPump)"/>
+    <rect x="26" y="55" width="28" height="8" rx="1" fill="url(#silverPump)"/>
+    <rect x="10" y="65" width="60" height="260" rx="6" fill="url(#bgClouds)"/>
+    <rect x="14" y="65" width="15" height="260" fill="url(#mistReflect)"/>
+    <text x="40" y="130" font-family="'Playfair Display', Georgia, serif" font-size="14" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1">In the</text>
+    <text x="40" y="150" font-family="'Playfair Display', Georgia, serif" font-size="14" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1">Clouds</text>
+    <text x="40" y="170" font-family="sans-serif" font-size="6" font-weight="700" fill="#fff1f2" text-anchor="middle" letter-spacing="1">Fine Fragrance Mist</text>
+    <!-- Dreamy Clouds -->
+    <ellipse cx="40" cy="280" rx="20" ry="12" fill="#ffffff" opacity="0.85"/>
+    <ellipse cx="30" cy="275" rx="12" ry="9" fill="#ffffff" opacity="0.85"/>
+    <ellipse cx="50" cy="275" rx="12" ry="9" fill="#ffffff" opacity="0.85"/>
+  </g>
+
+  <!-- Bottom 3: Spring Lilies -->
+  <g transform="translate(700, 540)" filter="url(#mistShadow)">
+    <rect x="18" y="0" width="44" height="60" rx="3" fill="url(#glassCap)" stroke="#ffffff" stroke-width="1.5" stroke-opacity="0.7"/>
+    <rect x="30" y="15" width="20" height="40" rx="2" fill="url(#silverPump)"/>
+    <rect x="26" y="55" width="28" height="8" rx="1" fill="url(#silverPump)"/>
+    <rect x="10" y="65" width="60" height="260" rx="6" fill="url(#bgLilies)"/>
+    <rect x="14" y="65" width="15" height="260" fill="url(#mistReflect)"/>
+    <text x="40" y="130" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1">Spring</text>
+    <text x="40" y="150" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1">Lilies</text>
+    <text x="40" y="170" font-family="sans-serif" font-size="6" font-weight="700" fill="#ffedd5" text-anchor="middle" letter-spacing="1">Fine Fragrance Mist</text>
+    <!-- White & Pink Lily -->
+    <circle cx="40" cy="275" r="15" fill="#ffffff" opacity="0.9"/>
+    <circle cx="40" cy="275" r="6" fill="#ec4899"/>
+  </g>
+
+  <!-- Bottom 4: Summer Twist -->
+  <g transform="translate(920, 540)" filter="url(#mistShadow)">
+    <rect x="18" y="0" width="44" height="60" rx="3" fill="url(#glassCap)" stroke="#ffffff" stroke-width="1.5" stroke-opacity="0.7"/>
+    <rect x="30" y="15" width="20" height="40" rx="2" fill="url(#silverPump)"/>
+    <rect x="26" y="55" width="28" height="8" rx="1" fill="url(#silverPump)"/>
+    <rect x="10" y="65" width="60" height="260" rx="6" fill="url(#bgSummerTwist)"/>
+    <rect x="14" y="65" width="15" height="260" fill="url(#mistReflect)"/>
+    <text x="40" y="130" font-family="'Playfair Display', Georgia, serif" font-size="14" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1">Summer</text>
+    <text x="40" y="150" font-family="'Playfair Display', Georgia, serif" font-size="14" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1">Twist</text>
+    <text x="40" y="170" font-family="sans-serif" font-size="6" font-weight="700" fill="#ffe4e6" text-anchor="middle" letter-spacing="1">Fine Fragrance Mist</text>
+    <!-- Silhouette Palm Trees & Sunset Beach -->
+    <path d="M30,310 Q32,275 35,260 M28,260 Q40,250 48,262 M25,268 Q35,260 45,270" stroke="#000000" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- Bottom 5: Morning Blossom -->
+  <g transform="translate(1140, 540)" filter="url(#mistShadow)">
+    <rect x="18" y="0" width="44" height="60" rx="3" fill="url(#glassCap)" stroke="#ffffff" stroke-width="1.5" stroke-opacity="0.7"/>
+    <rect x="30" y="15" width="20" height="40" rx="2" fill="url(#silverPump)"/>
+    <rect x="26" y="55" width="28" height="8" rx="1" fill="url(#silverPump)"/>
+    <rect x="10" y="65" width="60" height="260" rx="6" fill="url(#bgMorning)"/>
+    <rect x="14" y="65" width="15" height="260" fill="url(#mistReflect)"/>
+    <text x="40" y="130" font-family="'Playfair Display', Georgia, serif" font-size="13" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1">Morning</text>
+    <text x="40" y="150" font-family="'Playfair Display', Georgia, serif" font-size="13" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1">Blossom</text>
+    <text x="40" y="170" font-family="sans-serif" font-size="6" font-weight="700" fill="#d1fae5" text-anchor="middle" letter-spacing="1">Fine Fragrance Mist</text>
+    <!-- Green botanical leaves & blossoms -->
+    <circle cx="35" cy="275" r="7" fill="#67e8f9" opacity="0.9"/>
+    <circle cx="48" cy="285" r="6" fill="#fde047" opacity="0.9"/>
+  </g>
+
+  <!-- Bottom 6: Musky Jasmine -->
+  <g transform="translate(1360, 540)" filter="url(#mistShadow)">
+    <rect x="18" y="0" width="44" height="60" rx="3" fill="url(#glassCap)" stroke="#ffffff" stroke-width="1.5" stroke-opacity="0.7"/>
+    <rect x="30" y="15" width="20" height="40" rx="2" fill="url(#silverPump)"/>
+    <rect x="26" y="55" width="28" height="8" rx="1" fill="url(#silverPump)"/>
+    <rect x="10" y="65" width="60" height="260" rx="6" fill="url(#bgMusky)"/>
+    <rect x="14" y="65" width="15" height="260" fill="url(#mistReflect)"/>
+    <text x="40" y="130" font-family="'Playfair Display', Georgia, serif" font-size="14" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1">Musky</text>
+    <text x="40" y="150" font-family="'Playfair Display', Georgia, serif" font-size="14" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1">Jasmine</text>
+    <text x="40" y="170" font-family="sans-serif" font-size="6" font-weight="700" fill="#fef3c7" text-anchor="middle" letter-spacing="1">Fine Fragrance Mist</text>
+    <!-- White Jasmine Star Flowers -->
+    <g fill="#ffffff" opacity="0.95">
+      <circle cx="30" cy="270" r="4"/><circle cx="50" cy="280" r="5"/><circle cx="38" cy="295" r="4"/><circle cx="45" cy="265" r="3"/>
+    </g>
+  </g>
+
+</svg>

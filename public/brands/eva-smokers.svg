@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 110" fill="none">
+  <!-- Vertical EVA on left side -->
+  <g transform="translate(25, 20)">
+    <text x="0" y="22" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="24" fill="#0080b7" text-anchor="middle">E</text>
+    <text x="0" y="44" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="24" fill="#0080b7" text-anchor="middle">V</text>
+    <text x="0" y="66" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="24" fill="#0080b7" text-anchor="middle">A</text>
+  </g>
+  <!-- Main SMOKERS text -->
+  <g transform="translate(48, 65)">
+    <text x="0" y="0" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="52" fill="#0080b7" letter-spacing="-1">SMOKERS</text>
+  </g>
+  <!-- TOOTH POWDER subtitle -->
+  <g transform="translate(175, 94)">
+    <text x="0" y="0" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="16" fill="#0080b7" text-anchor="middle" letter-spacing="5">TOOTH POWDER</text>
+  </g>
+</svg>

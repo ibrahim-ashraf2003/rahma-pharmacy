@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="100%" height="100%">
+  <defs>
+    <!-- Linear Gradient for Frida Lettering Highlight -->
+    <linearGradient id="fridaHighlight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="60%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#e0f2fe" />
+    </linearGradient>
+
+    <!-- Cyan Inner Glow / Stroke Gradient -->
+    <linearGradient id="cyanStroke" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+
+    <!-- Filter for soft ambient glow -->
+    <filter id="fridaShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="2" dy="6" stdDeviation="4" flood-color="#001a66" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#fridaShadow)" transform="translate(25, 20)">
+    <!-- Layer 1: Dark Navy Blue Outer Border & Extrusion -->
+    <text 
+      x="270" 
+      y="210" 
+      font-family="'Brush Script MT', 'Segoe Script', 'Pacifico', 'Snell Roundhand', cursive, sans-serif" 
+      font-style="italic" 
+      font-weight="900" 
+      font-size="220" 
+      fill="#001b80" 
+      stroke="#001b80" 
+      stroke-width="44" 
+      stroke-linejoin="round" 
+      stroke-linecap="round"
+      text-anchor="middle"
+    >
+      frida
+    </text>
+
+    <!-- Layer 2: Bright Electric Cyan Stroke -->
+    <text 
+      x="270" 
+      y="210" 
+      font-family="'Brush Script MT', 'Segoe Script', 'Pacifico', 'Snell Roundhand', cursive, sans-serif" 
+      font-style="italic" 
+      font-weight="900" 
+      font-size="220" 
+      fill="url(#cyanStroke)" 
+      stroke="url(#cyanStroke)" 
+      stroke-width="26" 
+      stroke-linejoin="round" 
+      stroke-linecap="round"
+      text-anchor="middle"
+    >
+      frida
+    </text>
+
+    <!-- Layer 3: Clean White / Crisp Fill -->
+    <text 
+      x="270" 
+      y="210" 
+      font-family="'Brush Script MT', 'Segoe Script', 'Pacifico', 'Snell Roundhand', cursive, sans-serif" 
+      font-style="italic" 
+      font-weight="900" 
+      font-size="220" 
+      fill="url(#fridaHighlight)" 
+      text-anchor="middle"
+    >
+      frida
+    </text>
+
+    <!-- Registered Symbol ® in bottom right -->
+    <g transform="translate(515, 220)">
+      <circle cx="12" cy="-6" r="14" fill="#001b80" />
+      <circle cx="12" cy="-6" r="11.5" fill="#ffffff" />
+      <text x="12" y="-1.5" font-family="sans-serif" font-weight="900" font-size="14" fill="#001b80" text-anchor="middle">R</text>
+    </g>
+  </g>
+</svg>

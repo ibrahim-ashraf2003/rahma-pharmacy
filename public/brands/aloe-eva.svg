@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 110" fill="none">
+  <!-- Aloe Leaves icon sticking up from the O -->
+  <g transform="translate(130, 8) scale(0.9)">
+    <path d="M 0 45 Q 8 20 5 0 Q 15 15 12 45 Z" fill="#48bb78"/>
+    <path d="M 10 45 Q 22 25 24 5 Q 28 20 22 45 Z" fill="#68d391"/>
+    <path d="M -8 45 Q -5 28 -8 15 Q 0 25 -2 45 Z" fill="#38a169"/>
+  </g>
+
+  <!-- Aloe Eva text in forest green -->
+  <g fill="#006837" font-family="system-ui, -apple-system, sans-serif" font-weight="900">
+    <text x="120" y="52" font-size="46" text-anchor="middle" letter-spacing="-1">Aloe</text>
+    <text x="120" y="98" font-size="52" text-anchor="middle" letter-spacing="1">Eva</text>
+  </g>
+</svg>

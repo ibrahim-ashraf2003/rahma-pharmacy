@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Smooth 3D white rim bevel gradient -->
+    <linearGradient id="whiteRimGrad" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="40%" stop-color="#fdfdfd" />
+      <stop offset="80%" stop-color="#edf2ee" />
+      <stop offset="100%" stop-color="#d3ddd6" />
+    </linearGradient>
+
+    <!-- Outer rim 3D shadow edge -->
+    <linearGradient id="rimShadowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.8" />
+      <stop offset="70%" stop-color="#c5d3cb" />
+      <stop offset="100%" stop-color="#8fa397" />
+    </linearGradient>
+
+    <!-- Vibrant 3D Green Sphere Radial Gradient -->
+    <radialGradient id="greenBodyGrad" cx="36%" cy="26%" r="72%">
+      <stop offset="0%" stop-color="#4ce63b" />
+      <stop offset="22%" stop-color="#2bd957" />
+      <stop offset="55%" stop-color="#1eaa4c" />
+      <stop offset="85%" stop-color="#0e8339" />
+      <stop offset="100%" stop-color="#065f27" />
+    </radialGradient>
+
+    <!-- Glass Dome Highlight (Top curved sheen) -->
+    <linearGradient id="glassGloss" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.55" />
+      <stop offset="30%" stop-color="#ffffff" stop-opacity="0.22" />
+      <stop offset="70%" stop-color="#ffffff" stop-opacity="0.04" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Soft bottom rim inner reflection -->
+    <linearGradient id="bottomInnerGlow" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#72f467" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#72f467" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Subtle realistic 3D handset bevel shadow -->
+    <filter id="handset3D" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="3" flood-color="#04441b" flood-opacity="0.45" />
+    </filter>
+  </defs>
+
+  <!-- 1. Outer 3D Beveled Speech Bubble Structure (White Shell) -->
+  <!-- Bottom shadow layer of the white shell -->
+  <path d="M 256 16 C 123.5 16 16 123.5 16 256 C 16 299.8 28.1 340.8 49.3 376 L 16 496 L 139.6 459 C 173.8 477.5 213.3 488 256 488 C 388.5 488 496 380.5 496 256 C 496 123.5 388.5 16 256 16 Z" 
+        fill="url(#rimShadowGrad)" />
+
+  <!-- Main front face of the white shell -->
+  <path d="M 256 20 C 126 20 21 125 21 255 C 21 298 32.8 338.2 53.6 372.7 L 24.5 479.5 L 134.2 447 C 169.8 464 210.8 474 256 474 C 386 474 491 369 491 239 C 491 119 386 20 256 20 Z" 
+        fill="url(#whiteRimGrad)" />
+
+  <!-- 2. Inner Green Bubble Dome -->
+  <path d="M 256 48 C 141.1 48 48 141.1 48 256 C 48 295.2 58.8 331.8 77.6 363.2 L 53 452.8 L 145.4 425.2 C 177.6 443.4 215.1 454 256 454 C 370.9 454 464 360.9 464 256 C 464 141.1 370.9 48 256 48 Z" 
+        fill="url(#greenBodyGrad)" />
+
+  <!-- Inner bottom green glow arc for 3D depth -->
+  <path d="M 96 350 C 136 410 200 442 256 442 C 350 442 430 370 448 280" 
+        stroke="url(#bottomInnerGlow)" stroke-width="8" fill="none" stroke-linecap="round" />
+
+  <!-- 3. Upper Glass Dome Reflection -->
+  <path d="M 72 230 C 72 135 150 62 256 62 C 362 62 440 135 440 230 C 375 190 315 170 256 170 C 197 170 137 190 72 230 Z" 
+        fill="url(#glassGloss)" />
+
+  <!-- Secondary subtle rim shine on the top left -->
+  <path d="M 120 85 C 160 58 206 48 256 48 C 306 48 352 58 392 85" 
+        stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" fill="none" opacity="0.6" />
+
+  <!-- 4. Pure White 3D Telephone Handset (Standard WhatsApp Handset Angle & Shape) -->
+  <g filter="url(#handset3D)">
+    <path d="M 353.4 294.6 C 343.8 289.4 296.8 266.3 288.1 263.1 C 279.4 259.9 273 258.3 266.7 267.8 C 260.4 277.4 242.2 299.6 236.6 306 C 231 312.4 225.4 313.2 215.8 308 C 206.2 302.8 175.4 292.7 138.8 260.1 C 110.4 234.7 91.2 203.4 85.6 193.8 C 80 184.2 85 179 89.8 174.3 C 94.1 170.1 99.4 163.1 104.2 157.5 C 109 151.9 110.6 147.9 113.8 141.5 C 117 135.1 115.4 129.5 113 124.7 C 110.6 119.9 91.4 72.7 83.4 53.5 C 75.6 34.8 67.6 37.2 61.8 37.5 C 56.4 37.8 50 37.8 43.6 37.8 C 37.2 37.8 26.8 40.2 18 49.8 C 9.2 59.4 -15.6 82.6 -15.6 129.7 C -15.6 176.8 18.8 222.3 23.6 228.7 C 28.4 235.1 96.1 338.7 199.4 383.2 C 302.7 427.7 302.7 398.5 321.1 396.7 C 339.5 394.9 379.6 373 387.6 349.2 C 395.6 325.4 395.6 305.3 393.2 300.7 C 390.8 296.1 384.4 293.7 374.8 288.9 L 353.4 294.6 Z" 
+          fill="#ffffff" 
+          transform="translate(132, 112) scale(0.68)" />
+  </g>
+</svg>

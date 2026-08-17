@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 110" fill="none">
+  <!-- Eva Logo Top in Turquoise -->
+  <g transform="translate(70, 3) scale(0.55)">
+    <polygon points="30,5 50,5 60,22 50,40 30,40 20,22" stroke="#00a896" stroke-width="3" fill="none" stroke-linejoin="round"/>
+    <polygon points="70,5 90,5 100,22 90,40 70,40 60,22" stroke="#00a896" stroke-width="3" fill="none" stroke-linejoin="round"/>
+    <polygon points="110,5 130,5 140,22 130,40 110,40 100,22" stroke="#00a896" stroke-width="3" fill="none" stroke-linejoin="round"/>
+    <text x="40" y="27" font-family="'Times New Roman', serif" font-style="italic" font-weight="bold" font-size="22" fill="#00a896" text-anchor="middle">Є</text>
+    <text x="80" y="27" font-family="'Times New Roman', serif" font-style="italic" font-weight="bold" font-size="22" fill="#00a896" text-anchor="middle">υ</text>
+    <text x="120" y="27" font-family="'Times New Roman', serif" font-style="italic" font-weight="bold" font-size="22" fill="#00a896" text-anchor="middle">a</text>
+    <path d="M 20 48 Q 80 43 140 48" stroke="#00a896" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- CLINIC -->
+  <text x="125" y="44" font-family="system-ui, sans-serif" font-weight="700" font-size="14" fill="#00a896" text-anchor="middle" letter-spacing="4">CLINIC</text>
+
+  <!-- Baby graphic next to bebe -->
+  <g transform="translate(195, 66) scale(0.8)">
+    <circle cx="12" cy="0" r="9" stroke="#00a896" stroke-width="2.5" fill="none"/>
+    <circle cx="9" cy="-1" r="1" fill="#00a896"/>
+    <circle cx="15" cy="-1" r="1" fill="#00a896"/>
+    <path d="M 9 2 Q 12 5 15 2" stroke="#00a896" stroke-width="1.5" fill="none"/>
+    <!-- Swaddle body curve -->
+    <path d="M 0 10 Q 15 3 20 18 Q 10 25 0 10 Z" fill="#00a896"/>
+  </g>
+
+  <!-- bébé script typography -->
+  <text x="100" y="98" font-family="'Quicksand', 'Comfortaa', 'Century Gothic', sans-serif" font-weight="900" font-size="50" fill="#00a896" text-anchor="middle" letter-spacing="1">bébé</text>
+</svg>

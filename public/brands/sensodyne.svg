@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <defs>
+    <!-- Sensodyne Wave Gradient -->
+    <linearGradient id="sensodyneWave" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00188f" />
+      <stop offset="30%" stop-color="#0044cc" />
+      <stop offset="70%" stop-color="#00a3ff" />
+      <stop offset="100%" stop-color="#70d6ff" />
+    </linearGradient>
+
+    <!-- Sensodyne Text Gradient -->
+    <linearGradient id="sensodyneTextGrad" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#002080" />
+      <stop offset="35%" stop-color="#002b9e" />
+      <stop offset="50%" stop-color="#0080ff" />
+      <stop offset="65%" stop-color="#003db8" />
+      <stop offset="100%" stop-color="#001a70" />
+    </linearGradient>
+  </defs>
+
+  <!-- Swooshing 3D Wave Accent -->
+  <g transform="translate(10, 0)">
+    <!-- Main Upper/Lower Arc Wave -->
+    <path d="M 110 270 C 230 260, 310 180, 390 100 C 440 50, 480 30, 580 30 C 480 50, 430 90, 370 170 C 290 270, 200 280, 110 270 Z" fill="url(#sensodyneWave)" />
+    <!-- Wave Inner Glow Highlight -->
+    <path d="M 170 260 C 250 240, 320 170, 390 105 C 440 60, 480 42, 550 36 C 470 54, 430 90, 370 165 C 310 240, 230 258, 170 260 Z" fill="#ffffff" opacity="0.35" />
+  </g>
+
+  <!-- SENSODYNE Wordmark -->
+  <g fill="url(#sensodyneTextGrad)">
+    <text 
+      x="300" 
+      y="350" 
+      font-family="'Arial Black', 'Trebuchet MS', 'Impact', sans-serif" 
+      font-weight="900" 
+      font-size="68" 
+      letter-spacing="3" 
+      text-anchor="middle"
+    >
+      SENSODYNE
+    </text>
+  </g>
+</svg>

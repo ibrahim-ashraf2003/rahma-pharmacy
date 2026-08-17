@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 560" width="100%" height="100%">
+  <defs>
+    <!-- Leaf Rich Emerald Gradient -->
+    <linearGradient id="daburLeafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#028536" />
+      <stop offset="50%" stop-color="#006828" />
+      <stop offset="100%" stop-color="#003e15" />
+    </linearGradient>
+
+    <!-- Metallic Gold Gradient -->
+    <linearGradient id="daburGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff099" />
+      <stop offset="30%" stop-color="#e6b800" />
+      <stop offset="70%" stop-color="#b38600" />
+      <stop offset="100%" stop-color="#ffdc33" />
+    </linearGradient>
+
+    <!-- 3D Emerald Text Gradient -->
+    <linearGradient id="amlaGreenGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#007730" />
+      <stop offset="50%" stop-color="#004d1c" />
+      <stop offset="100%" stop-color="#002b0e" />
+    </linearGradient>
+
+    <!-- Golden Oil Drop Gradient -->
+    <radialGradient id="oilDropGrad" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#ffff99" />
+      <stop offset="40%" stop-color="#d4e817" />
+      <stop offset="80%" stop-color="#99b800" />
+      <stop offset="100%" stop-color="#556600" />
+    </radialGradient>
+  </defs>
+
+  <g transform="translate(25, 10)">
+    <!-- Top Arc "NEW PACK" Banner -->
+    <g transform="translate(180, 0)">
+      <path d="M 0 70 C 50 10, 190 10, 240 70 L 260 55 C 200 -10, 40 -10, -20 55 Z" fill="url(#daburGoldGrad)" stroke="#a67c00" stroke-width="2" />
+      <text x="120" y="46" font-family="'Arial Black', sans-serif" font-weight="900" font-size="28" fill="#004d1c" text-anchor="middle" letter-spacing="2">NEW PACK</text>
+    </g>
+
+    <!-- Main Green Leaf Emblem with Gold Border -->
+    <g transform="translate(60, 50)">
+      <!-- Gold Outer Rim of Leaf -->
+      <path d="M 10 160 C 20 50, 150 10, 360 20 C 470 25, 490 85, 480 95 C 470 140, 350 240, 160 230 C 60 225, 0 190, 10 160 Z" 
+            fill="url(#daburGoldGrad)" stroke="#a67c00" stroke-width="3" />
+      
+      <!-- Inner Glossy Green Leaf -->
+      <path d="M 22 155 C 32 60, 155 24, 350 32 C 450 36, 468 85, 458 95 C 448 135, 340 222, 165 215 C 72 210, 15 180, 22 155 Z" 
+            fill="url(#daburLeafGrad)" />
+
+      <!-- Golden Banyan Tree Emblem -->
+      <g transform="translate(160, 40)">
+        <circle cx="45" cy="40" r="34" fill="#a4c639" opacity="0.35" />
+        <!-- Tree Trunk & Branches -->
+        <path d="M 45 65 L 42 42 C 35 32, 25 35, 20 30 C 25 24, 34 26, 40 22 C 36 14, 48 10, 54 18 C 60 14, 68 20, 64 26 C 72 28, 70 36, 62 38 L 48 44 L 47 65 Z" fill="url(#daburGoldGrad)" />
+      </g>
+
+      <!-- Dabur Script Wordmark in White -->
+      <text 
+        x="240" 
+        y="160" 
+        font-family="'Futura', 'Trebuchet MS', 'Arial', sans-serif" 
+        font-style="italic" 
+        font-weight="900" 
+        font-size="94" 
+        fill="#ffffff" 
+        stroke="#003311"
+        stroke-width="4"
+        text-anchor="middle"
+      >
+        Dabur
+      </text>
+      <!-- Registered Trademark ® -->
+      <text x="362" y="98" font-family="sans-serif" font-weight="900" font-size="16" fill="#ffffff">®</text>
+    </g>
+
+    <!-- 3D "Amla" Wordmark with Gold Bevel -->
+    <g transform="translate(30, 280)">
+      <!-- Amla in dynamic 3D green & gold -->
+      <text 
+        x="0" 
+        y="160" 
+        font-family="'Cooper Black', 'Brush Script MT', 'Arial Black', sans-serif" 
+        font-style="italic" 
+        font-weight="900" 
+        font-size="180" 
+        fill="url(#amlaGreenGrad)" 
+        stroke="url(#daburGoldGrad)" 
+        stroke-width="12" 
+        stroke-linejoin="round"
+        letter-spacing="-4px"
+      >
+        Amla
+      </text>
+      <text 
+        x="0" 
+        y="160" 
+        font-family="'Cooper Black', 'Brush Script MT', 'Arial Black', sans-serif" 
+        font-style="italic" 
+        font-weight="900" 
+        font-size="180" 
+        fill="url(#amlaGreenGrad)" 
+        letter-spacing="-4px"
+      >
+        Amla
+      </text>
+    </g>
+
+    <!-- "Hair Oil" Text + Golden Drop on Bottom Right -->
+    <g transform="translate(360, 390)">
+      <text 
+        x="20" 
+        y="75" 
+        font-family="'Brush Script MT', 'Caveat', 'Segoe Script', cursive" 
+        font-style="italic" 
+        font-weight="900" 
+        font-size="82" 
+        fill="#004d1c"
+      >
+        Hair
+      </text>
+      <text 
+        x="45" 
+        y="145" 
+        font-family="'Brush Script MT', 'Caveat', 'Segoe Script', cursive" 
+        font-style="italic" 
+        font-weight="900" 
+        font-size="95" 
+        fill="#004d1c"
+      >
+        Oil
+      </text>
+
+      <!-- Hair Oil Underline Swoosh -->
+      <path d="M 60 160 C 110 145, 170 135, 210 120 C 160 140, 110 152, 60 160 Z" fill="#004d1c" />
+
+      <!-- Glowing Golden Oil Drop -->
+      <g transform="translate(150, 75)">
+        <path d="M 24 0 C 24 0, 48 40, 48 60 C 48 76, 36 90, 24 90 C 12 90, 0 76, 0 60 C 0 40, 24 0, 24 0 Z" fill="url(#oilDropGrad)" stroke="#a6c600" stroke-width="2" />
+        <!-- Drop Light Glint -->
+        <ellipse cx="16" cy="55" rx="6" ry="12" fill="#ffffff" opacity="0.6" transform="rotate(-20, 16, 55)" />
+
+        <!-- Accompanying mini green leaf -->
+        <path d="M 46 60 C 60 48, 80 50, 84 62 C 84 74, 66 84, 46 80 Z" fill="#028536" stroke="#a6c600" stroke-width="1.5" />
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,47 @@
+<!-- Eva Skin Care Senses Body Lotion In The Clouds 240ml -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg10" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8f9fa"/>
+    </linearGradient>
+    <linearGradient id="lotionPink" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fdf2f8"/>
+      <stop offset="40%" stop-color="#fbcfe8"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+    <filter id="shadow10" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg10)"/>
+  <ellipse cx="200" cy="460" rx="60" ry="12" fill="#000" opacity="0.1"/>
+  
+  <g filter="url(#shadow10)">
+    <!-- Body Lotion Tube/Bottle -->
+    <path d="M 145 90 L 255 90 L 240 400 L 160 400 Z" fill="url(#lotionPink)" stroke="#f472b6" stroke-width="1.5"/>
+    
+    <!-- Top Crimped Edge -->
+    <rect x="140" y="75" width="120" height="20" fill="#fbcfe8" stroke="#f472b6" stroke-width="1.5"/>
+    
+    <!-- White Cap at bottom -->
+    <rect x="160" y="400" width="80" height="45" rx="5" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
+    
+    <!-- Branding -->
+    <text x="200" y="130" font-family="serif" font-size="16" font-weight="900" fill="#ffffff" text-anchor="middle">eva</text>
+    <text x="200" y="148" font-family="sans-serif" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="2">SKIN CARE</text>
+    
+    <text x="200" y="185" font-family="cursive, serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">In the</text>
+    <text x="200" y="210" font-family="cursive, serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">Clouds</text>
+    
+    <rect x="155" y="235" width="90" height="22" rx="4" fill="#ffffff" opacity="0.9"/>
+    <text x="200" y="250" font-family="sans-serif" font-size="9" font-weight="900" fill="#db2777" text-anchor="middle">BODY LOTION</text>
+
+    <!-- Cloud graphic -->
+    <path d="M 160 300 Q 180 275 200 295 Q 220 275 240 300 Z" fill="#ffffff" opacity="0.6"/>
+    <path d="M 155 340 Q 175 315 200 335 Q 225 315 245 340 Z" fill="#ffffff" opacity="0.6"/>
+
+    <text x="200" y="370" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">senses</text>
+    <text x="200" y="390" font-family="sans-serif" font-size="8" font-weight="bold" fill="#ffffff" text-anchor="middle">240 ml</text>
+  </g>
+</svg>

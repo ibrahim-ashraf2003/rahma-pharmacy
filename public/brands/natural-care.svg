@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#82d936" />
+      <stop offset="50%" stop-color="#55b81a" />
+      <stop offset="100%" stop-color="#36800a" />
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(40, 20)">
+    <!-- Main Leaf Body -->
+    <path d="M 110 0 C 110 0, 0 80, 0 180 C 0 260, 60 310, 110 320 C 120 315, 130 305, 130 290 C 130 280, 115 270, 105 260 C 150 250, 190 200, 190 140 C 190 60, 110 0, 110 0 Z" 
+          fill="url(#leafGrad)" />
+    
+    <!-- Central Vein -->
+    <path d="M 110 20 C 105 100, 95 200, 110 300" stroke="#ffffff" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.8" />
+
+    <!-- Lateral Veins -->
+    <path d="M 105 80 L 40 120" stroke="#ffffff" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.7" />
+    <path d="M 102 130 L 35 175" stroke="#ffffff" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.7" />
+    <path d="M 100 185 L 45 230" stroke="#ffffff" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.7" />
+
+    <path d="M 108 80 L 155 110" stroke="#ffffff" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.7" />
+    <path d="M 105 130 L 165 160" stroke="#ffffff" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.7" />
+    <path d="M 103 185 L 155 215" stroke="#ffffff" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.7" />
+  </g>
+</svg>

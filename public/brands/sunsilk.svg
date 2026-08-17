@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Sunsilk Berry Magenta Gradient -->
+    <linearGradient id="sunsilkBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#80003b" />
+      <stop offset="50%" stop-color="#990047" />
+      <stop offset="100%" stop-color="#66002f" />
+    </linearGradient>
+  </defs>
+
+  <!-- Magenta Circle -->
+  <circle cx="250" cy="250" r="235" fill="url(#sunsilkBg)" />
+
+  <!-- White Sunsilk Typography with Stylish Extending 'k' -->
+  <g fill="#ffffff" transform="translate(15, 175)">
+    <!-- s -->
+    <path d="M 50 35 C 50 15, 30 0, 0 0 C -35 0, -50 18, -50 35 C -50 68, 50 55, 50 95 C 50 120, 25 135, -5 135 C -40 135, -60 115, -60 90 L -30 90 C -30 105, -15 115, 0 115 C 20 115, 30 105, 30 92 C 30 65, -70 75, -70 35 C -70 5, -45 -18, 0 -18 C 45 -18, 70 8, 70 35 Z" transform="translate(90, 45)" />
+
+    <!-- u -->
+    <path d="M 145 35 L 145 115 C 145 135, 160 148, 185 148 C 210 148, 225 135, 225 115 L 225 35 L 250 35 L 250 115 C 250 150, 225 170, 185 170 C 145 170, 120 150, 120 115 L 120 35 Z" />
+
+    <!-- n -->
+    <path d="M 270 35 L 295 35 L 295 55 C 310 40, 328 32, 350 32 C 385 32, 405 52, 405 90 L 405 165 L 380 165 L 380 95 C 380 68, 365 55, 345 55 C 322 55, 300 70, 295 90 L 295 165 L 270 165 Z" transform="translate(-15, 0)" />
+
+    <!-- s -->
+    <path d="M 50 35 C 50 15, 30 0, 0 0 C -35 0, -50 18, -50 35 C -50 68, 50 55, 50 95 C 50 120, 25 135, -5 135 C -40 135, -60 115, -60 90 L -30 90 C -30 105, -15 115, 0 115 C 20 115, 30 105, 30 92 C 30 65, -70 75, -70 35 C -70 5, -45 -18, 0 -18 C 45 -18, 70 8, 70 35 Z" transform="translate(420, 45)" />
+
+    <!-- i (dot included) -->
+    <rect x="460" y="35" width="22" height="130" rx="10" />
+    <circle cx="471" cy="8" r="14" />
+
+    <!-- l -->
+    <rect x="500" y="-30" width="22" height="195" rx="10" />
+
+    <!-- k extending outward right -->
+    <g transform="translate(535, -25)">
+      <rect x="0" y="-5" width="22" height="195" rx="10" />
+      <!-- Upper diagonal wing -->
+      <path d="M 20 115 L 75 40 L 105 40 L 40 125 Z" />
+      <!-- Lower extending wide tail -->
+      <path d="M 28 100 L 95 190 L 140 190 L 50 75 Z" />
+    </g>
+  </g>
+</svg>

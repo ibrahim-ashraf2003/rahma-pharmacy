@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <!-- Warm Rose Gold / Champagne Gradient -->
+    <linearGradient id="luxRoseGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ab8268" />
+      <stop offset="35%" stop-color="#c99f84" />
+      <stop offset="65%" stop-color="#dfbca5" />
+      <stop offset="100%" stop-color="#9a7058" />
+    </linearGradient>
+  </defs>
+
+  <g fill="url(#luxRoseGold)" transform="translate(15, 10)">
+    <!-- LUX Classic Typographic Structure with Signature Swoop Underline -->
+    <!-- L -->
+    <path d="M 40 145 L 80 145 L 80 270 C 80 270, 100 290, 150 290 L 150 250 C 120 250, 120 230, 120 230 L 120 145 L 40 145 Z" />
+
+    <!-- U -->
+    <path d="M 175 145 L 215 145 L 215 220 C 215 250, 240 270, 280 270 C 320 270, 345 250, 345 220 L 345 145 L 385 145 L 385 220 C 385 270, 340 300, 280 300 C 220 300, 175 270, 175 220 Z" />
+
+    <!-- X -->
+    <path d="M 405 145 L 450 145 L 500 220 L 550 145 L 595 145 L 525 245 L 598 320 L 550 320 L 485 240 L 405 145 Z" />
+
+    <!-- Signature Base Ribbon / Swoop connecting L through U to X -->
+    <path d="M 40 145 L 80 145 L 80 275 C 130 280, 260 330, 420 310 C 510 300, 580 310, 600 320 C 540 285, 450 270, 360 275 C 230 280, 120 265, 80 230 L 80 145 Z" />
+    
+    <!-- Full Accurate LUX Clean Silhouette -->
+    <!-- L Stem -->
+    <rect x="50" y="145" width="40" height="150" />
+    <!-- U Left -->
+    <rect x="190" y="145" width="40" height="110" />
+    <!-- U Right -->
+    <rect x="340" y="145" width="40" height="110" />
+    <path d="M 190 230 C 190 285, 230 300, 285 300 C 340 300, 380 285, 380 230 L 340 230 C 340 260, 320 270, 285 270 C 250 270, 230 260, 230 230 Z" />
+
+    <!-- X Right Leg Swoop -->
+    <path d="M 420 145 L 460 145 L 585 315 L 545 315 Z" />
+    <path d="M 585 145 L 545 145 L 485 230 L 515 260 Z" />
+
+    <!-- Wave Swoosh Below LUX -->
+    <path d="M 50 280 C 150 280, 280 340, 480 290 C 550 270, 610 320, 630 330 C 580 280, 480 250, 370 280 C 220 320, 130 270, 50 280 Z" />
+  </g>
+</svg>
