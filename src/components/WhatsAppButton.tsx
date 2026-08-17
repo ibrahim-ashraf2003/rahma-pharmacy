@@ -1,0 +1,1 @@
+export default function WhatsAppButton(){return <a href="https://wa.me/20109434118" target="_blank" rel="noreferrer" className="fixed bottom-4 left-4 z-40 rounded-full bg-green-600 px-4 py-3 text-white">WhatsApp</a>}
